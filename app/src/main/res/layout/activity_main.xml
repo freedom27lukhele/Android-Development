@@ -1,25 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-    <LinearLayout
-            android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@android:color/darker_gray"
+>
+
+
+    <TextView
+            android:text="Freedom"
+            android:id="@+id/freedom_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-    >
-        <TextView
-                android:text="Guest List"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-        <TextView
-                android:text="Freedom Lukhele"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:textAppearanceLarge"/>
 
-    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+            android:text="joanne"
+            android:id="@+id/john_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/freedom_text_view"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+            android:text="james"
+            android:id="@+id/johnn_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/freedom_text_view"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+            android:text="joseph"
+            android:id="@+id/joseph_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="24sp"/>
+
+
+    <TextView
+            android:text="andrew"
+            android:id="@+id/andrew_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/joseph_text_view"
+            android:textSize="24sp"/>
+
+    <TextView
+            android:text="nancy"
+            android:id="@+id/nancy_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/joseph_text_view"
+            android:textSize="24sp"/>
+
+    <TextView
+            android:text="Lwazi"
+            android:id="@+id/Lwazi_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+            android:text="omonijo"
+            android:id="@+id/omonijo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/Lwazi_text_view"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+            android:text="grace"
+            android:id="@+id/grace_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/omonijo_text_view"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+</RelativeLayout>
+
+        <!--<LinearLayout-->
+        <!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--        xmlns:tools="http://schemas.android.com/tools"-->
+        <!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--        android:orientation="vertical"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="match_parent"-->
+        <!--        tools:context=".MainActivity"-->
+        <!--        android:background="@android:color/darker_gray"-->
+        <!--&gt;-->
+
+
+        <!--    <ImageView-->
+        <!--            android:src="@drawable/ic_launcher_background"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_weight="1"/>-->
+        <!--    <TextView-->
+        <!--            android:text="you are invited!"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textSize="54sp"/>-->
+
+        <!--    <TextView-->
+        <!--            android:text="bonfire at the beach"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:textSize="34sp"/>-->
+        <!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:text="Freedom Lukhele"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:layout_height="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:layout_weight="1"/>&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
