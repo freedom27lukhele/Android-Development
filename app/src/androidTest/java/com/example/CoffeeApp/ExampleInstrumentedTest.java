@@ -1,4 +1,4 @@
-package com.example.happybirthdayapp;
+package com.example.CoffeeApp;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

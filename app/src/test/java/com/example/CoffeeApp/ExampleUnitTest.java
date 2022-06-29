@@ -1,4 +1,4 @@
-package com.example.happybirthdayapp;
+package com.example.CoffeeApp;
 
 import org.junit.Test;
 
