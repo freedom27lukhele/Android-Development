@@ -10,6 +10,7 @@ package com.example.CoffeeApp;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.text.NumberFormat;
@@ -29,8 +30,21 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        display(2);
-        displayPrice(2 * 5);
+        int numberOfCoffees = 2;
+        display(numberOfCoffees);
+        displayPrice(numberOfCoffees * 5);
+    }
+    public void increment(View view){
+        int quantity = 3;
+        display(quantity);
+        displayPrice(quantity * 5);
+
+    }
+
+    public void decrement(View view){
+        int quantity = 1;
+        display(quantity);
+        displayPrice(quantity * 5);
     }
 
     /**
